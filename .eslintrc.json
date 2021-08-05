@@ -57,6 +57,10 @@
             }
           }
         ],
+        "@typescript-eslint/indent": [
+          "error",
+          2
+        ],
         "@typescript-eslint/prefer-function-type": "error",
         "@typescript-eslint/quotes": [
           "error",
