@@ -179,20 +179,10 @@
       "files": [
         "*.html"
       ],
-      "plugins": [
-        "@html-eslint"
-      ],
-      "parser": "@html-eslint/parser",
       "extends": [
-        "plugin:@html-eslint/recommended"
+        "plugin:@angular-eslint/template/recommended"
       ],
-      "rules": {
-        "@html-eslint/require-doctype": "off",
-        "@html-eslint/no-multiple-empty-lines": ["error", { "max": 1 } ],
-        "@html-eslint/no-extra-spacing-attrs": "error",
-        "@html-eslint/no-inline-styles": "error",
-        "@html-eslint/indent": ["error", 2]
-      }
+      "rules": {}
     }
   ]
 }
