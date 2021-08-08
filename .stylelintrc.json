@@ -1,9 +1,10 @@
 {
   "extends": "stylelint-config-sass-guidelines",
+  "plugins": ["stylelint-order"],
   "rules": {
     "selector-no-qualifying-type": null,
     "block-no-empty": true,
-    "no-descending-specificity": true,
+    "no-descending-specificity": null,
     "no-duplicate-selectors": true,
     "no-extra-semicolons": true,
     "selector-max-empty-lines": 0,
@@ -14,8 +15,16 @@
     "selector-attribute-brackets-space-inside": "never",
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
-    "selector-pseudo-class-parentheses-space-inside": "always",
+    "selector-pseudo-class-parentheses-space-inside": "never",
     "selector-list-comma-space-after": "always",
+    "selector-pseudo-element-no-unknown": [true, { "ignorePseudoElements": ["ng-deep"] }],
+    "max-nesting-depth": 3,
+    "number-leading-zero": "never",
+    "selector-class-pattern": null,
+    "rule-empty-line-before": null,
+    "declaration-property-value-disallowed-list": null,
+    "selector-list-comma-newline-after": null,
+    "order/properties-alphabetical-order": null,
     "indentation": 2,
     "max-empty-lines": 1
   }
