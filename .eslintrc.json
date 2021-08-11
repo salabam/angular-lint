@@ -26,7 +26,6 @@
           "error",
           {
             "type": "element",
-            "prefix": "app",
             "style": "kebab-case"
           }
         ],
@@ -35,7 +34,6 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "app",
             "style": "camelCase"
           }
         ],
@@ -120,7 +118,6 @@
         "no-duplicate-imports": "error",
         "no-empty": "error",
         "no-eval": "error",
-        "no-extra-parens": "error",
         "no-extra-semi": "error",
         "no-fallthrough": "error",
         "no-import-assign": "error",
